@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">iSonidos</string>
     <string name="sound01">ramonpitis_inestable</string>
+    <string name="video01">v_simpsons_batman</string>
 </resources>
