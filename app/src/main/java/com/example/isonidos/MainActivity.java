@@ -118,7 +118,6 @@ public class MainActivity extends AppCompatActivity {
         if (s.contains("_")){
             s = s.substring(s.indexOf('_'));
         }
-        s.replace('_', ' ');
 
         return s;
     }
