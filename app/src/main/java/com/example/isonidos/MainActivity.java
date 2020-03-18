@@ -40,7 +40,10 @@ public class MainActivity extends AppCompatActivity {
                 principal.addView(aux);
             }
             soundList.put(b.getTag().toString(), b.getText().toString());
+
+            //comenta la linea de abajo y habilita la de 2 abajo
             b.setText(shortButtonName(b.getText().toString()).replace("_", " "));
+            //b.setText(shortButtonName(b.getText().toString()));
         }
     }
 
@@ -118,6 +121,9 @@ public class MainActivity extends AppCompatActivity {
         if (s.contains("_")){
             s = s.substring(s.indexOf('_'));
         }
+
+        //habilita esta linea tambien
+        //s.replace('_',' ');
 
         return s;
     }
